@@ -1,0 +1,1502 @@
+[
+           {
+                "question": "Selon le Code canadien du travail, quelle est la responsabilité principale de l'employeur en matière de santé et sécurité?",
+                "options": [
+                    "Fournir uniquement l'équipement de protection individuelle",
+                    "Assurer la santé et la sécurité de tous les employés au travail",
+                    "Former seulement les superviseurs",
+                    "Effectuer des inspections mensuelles"
+                ],
+                "correct": 1
+            },
+            {
+                "question": "Dans le système d'information sur les matières dangereuses utilisées au travail (SIMDUT), que signifie l'acronyme SGH?",
+                "options": [
+                    "Système de Gestion des Hazards",
+                    "Standard de Gestion Harmonisé",
+                    "Système Général Harmonisé",
+                    "Sécurité Générale des Hazards"
+                ],
+                "correct": 2
+            },
+            {
+                "question": "Quelle est la limite d'exposition professionnelle (LEP) pour le bruit selon les normes canadiennes?",
+                "options": [
+                    "85 dBA pour 8 heures",
+                    "90 dBA pour 8 heures",
+                    "95 dBA pour 8 heures",
+                    "80 dBA pour 8 heures"
+                ],
+                "correct": 1
+            },
+            {
+                "question": "Selon la réglementation canadienne, à quelle fréquence minimale doit-on inspecter un harnais de sécurité?",
+                "options": [
+                    "Chaque semaine",
+                    "Avant chaque utilisation",
+                    "Chaque mois",
+                    "Chaque trimestre"
+                ],
+                "correct": 1
+            },
+            {
+                "question": "Dans le cadre du droit de refus au Canada, un travailleur peut refuser d'exécuter un travail s'il croit raisonnablement que:",
+                "options": [
+                    "Le travail est trop difficile",
+                    "Il n'a pas les compétences requises",
+                    "Le travail présente un danger pour sa santé ou sécurité",
+                    "Il préfère faire autre chose"
+                ],
+                "correct": 2
+            },
+            {
+                "question": "Quelle organisation fédérale est responsable de l'administration du Code canadien du travail?",
+                "options": [
+                    "Santé Canada",
+                    "Emploi et Développement social Canada",
+                    "Sécurité publique Canada",
+                    "Ressources naturelles Canada"
+                ],
+                "correct": 1
+            },
+            {
+                "question": "Selon le SIMDUT 2015, combien de classes de danger existe-t-il?",
+                "options": [
+                    "6 classes",
+                    "8 classes",
+                    "10 classes",
+                    "12 classes"
+                ],
+                "correct": 2
+            },
+            {
+                "question": "Pour un espace clos, quelle est la concentration minimale d'oxygène acceptable selon les normes canadiennes?",
+                "options": [
+                    "18%",
+                    "19.5%",
+                    "20%",
+                    "21%"
+                ],
+                "correct": 1
+            },
+            {
+                "question": "Dans une analyse de risque, que signifie l'acronyme ALARP?",
+                "options": [
+                    "As Low As Reasonably Practicable",
+                    "Always Low And Reasonably Protected",
+                    "All Levels Are Reasonably Prevented",
+                    "Alternative Low And Reduced Procedures"
+                ],
+                "correct": 0
+            },
+            {
+                "question": "Selon la réglementation canadienne sur la protection contre les chutes, à partir de quelle hauteur un système de protection est-il obligatoire?",
+                "options": [
+                    "2 mètres",
+                    "3 mètres",
+                    "3.5 mètres",
+                    "4 mètres"
+                ],
+                "correct": 1
+            },
+            {
+                "question": "Quelle est la responsabilité du comité de santé et sécurité selon le Code canadien du travail?",
+                "options": [
+                    "Sanctionner les employés négligents",
+                    "Enquêter sur les accidents et formuler des recommandations",
+                    "Embaucher du personnel de sécurité",
+                    "Acheter de l'équipement de protection"
+                ],
+                "correct": 1
+            },
+            {
+                "question": "Dans le contexte canadien, que signifie l'acronyme CCHST?",
+                "options": [
+                    "Centre Canadien d'Hygiène et de Sécurité au Travail",
+                    "Comité Canadien de Health et Safety au Travail",
+                    "Commission Canadienne d'Hygiène et Sécurité au Travail",
+                    "Conseil Canadien d'Health et Safety au Travail"
+                ],
+                "correct": 0
+            },
+            {
+                "question": "Selon les normes canadiennes, quelle est la limite d'exposition pour les vibrations main-bras sur 8 heures?",
+                "options": [
+                    "2.5 m/s²",
+                    "5 m/s²",
+                    "7.5 m/s²",
+                    "10 m/s²"
+                ],
+                "correct": 1
+            },
+            {
+                "question": "Dans un programme de verrouillage/étiquetage, qui peut retirer un cadenas?",
+                "options": [
+                    "N'importe quel superviseur",
+                    "Le responsable sécurité",
+                    "Seulement la personne qui l'a installé",
+                    "N'importe quel électricien qualifié"
+                ],
+                "correct": 2
+            },
+            {
+                "question": "Selon la réglementation canadienne, quelle est la fréquence minimale requise pour la formation en premiers secours en milieu de travail?",
+                "options": [
+                    "Annuelle",
+                    "Aux deux ans",
+                    "Aux trois ans",
+                    "Aux cinq ans"
+                ],
+                "correct": 2
+            },
+            {
+                "question": "Dans le cadre du SIMDUT, quelle information N'EST PAS obligatoire sur une étiquette de produit dangereux?",
+                "options": [
+                    "Nom du produit",
+                    "Pictogrammes de danger",
+                    "Prix du produit",
+                    "Mentions de danger"
+                ],
+                "correct": 2
+            },
+            {
+                "question": "Quelle est la méthode privilégiée pour contrôler les risques selon la hiérarchie des mesures de contrôle?",
+                "options": [
+                    "Équipement de protection individuelle",
+                    "Formation et sensibilisation",
+                    "Élimination du danger",
+                    "Contrôles administratifs"
+                ],
+                "correct": 2
+            },
+            {
+                "question": "Dans un lieu de travail fédéral au Canada, combien d'employés sont nécessaires pour former obligatoirement un comité de santé et sécurité?",
+                "options": [
+                    "10 employés ou plus",
+                    "15 employés ou plus",
+                    "20 employés ou plus",
+                    "25 employés ou plus"
+                ],
+                "correct": 2
+            },
+            {
+                "question": "Selon les normes canadiennes, quelle est la distance minimale de sécurité pour les travaux près de lignes électriques de 25 kV?",
+                "options": [
+                    "3 mètres",
+                    "5 mètres",
+                    "7 mètres",
+                    "10 mètres"
+                ],
+                "correct": 1
+            },
+            {
+                "question": "Dans le contexte de la protection respiratoire, que signifie l'acronyme APR?",
+                "options": [
+                    "Air Purifying Respirator",
+                    "Automatic Protection Respirator",
+                    "Advanced Personal Respirator",
+                    "Approved Protection Respirator"
+                ],
+                "correct": 0
+            },
+            {
+                "question": "Selon la réglementation canadienne, à quelle température l'eau des douches oculaires d'urgence doit-elle être maintenue?",
+                "options": [
+                    "10-15°C",
+                    "15-35°C",
+                    "20-40°C",
+                    "25-45°C"
+                ],
+                "correct": 1
+            },
+            {
+                "question": "Dans une évaluation de risque quantitative, que représente la formule R = P × C?",
+                "options": [
+                    "Risque = Prix × Coût",
+                    "Risque = Probabilité × Conséquence",
+                    "Risque = Personnel × Contrôle",
+                    "Risque = Protection × Conformité"
+                ],
+                "correct": 1
+            },
+            {
+                "question": "Selon le Code canadien du travail, dans combien de jours un accident grave doit-il être rapporté?",
+                "options": [
+                    "24 heures",
+                    "48 heures",
+                    "72 heures",
+                    "Immédiatement"
+                ],
+                "correct": 3
+            },
+            {
+                "question": "Pour les équipements de protection contre les chutes, quelle est la force maximale qu'un point d'ancrage doit pouvoir supporter?",
+                "options": [
+                    "15 kN (3,400 lbs)",
+                    "18 kN (4,000 lbs)",
+                    "22 kN (5,000 lbs)",
+                    "25 kN (5,600 lbs)"
+                ],
+                "correct": 2
+            },
+            {
+                "question": "Dans le SIMDUT, que représente le pictogramme avec une flamme?",
+                "options": [
+                    "Matières explosives",
+                    "Matières inflammables",
+                    "Matières comburantes",
+                    "Gaz sous pression"
+                ],
+                "correct": 1
+            },
+            {
+                "question": "Selon les normes canadiennes de sécurité électrique, à partir de quelle tension un circuit est-il considéré comme haute tension?",
+                "options": [
+                    "600 V",
+                    "1000 V",
+                    "2000 V",
+                    "5000 V"
+                ],
+                "correct": 1
+            },
+            {
+                "question": "Dans un programme de sécurité comportementale, que signifie l'acronyme BBS?",
+                "options": [
+                    "Basic Behaviour Safety",
+                    "Behaviour-Based Safety",
+                    "Best Behaviour Standards",
+                    "Behavioural Business Safety"
+                ],
+                "correct": 1
+            },
+            {
+                "question": "Selon la réglementation canadienne, quelle est la durée minimale de conservation des dossiers de formation en sécurité?",
+                "options": [
+                    "2 ans",
+                    "5 ans",
+                    "7 ans",
+                    "10 ans"
+                ],
+                "correct": 1
+            },
+            {
+                "question": "Pour un détecteur de gaz portable, quelle est la fréquence recommandée pour l'étalonnage selon les normes canadiennes?",
+                "options": [
+                    "Quotidienne",
+                    "Hebdomadaire",
+                    "Mensuelle",
+                    "Trimestrielle"
+                ],
+                "correct": 0
+            },
+            {
+                "question": "Dans le contexte des espaces clos, que signifie l'acronyme LIE?",
+                "options": [
+                    "Limite Inférieure d'Explosivité",
+                    "Level d'Intervention d'Urgence",
+                    "Limite d'Intervention Emergency",
+                    "Level Inférieur d'Évacuation"
+                ],
+                "correct": 0
+            },
+            {
+                "question": "Selon les normes canadiennes, quelle est la concentration maximale permise de monoxyde de carbone (CO) sur 8 heures?",
+                "options": [
+                    "25 ppm",
+                    "35 ppm",
+                    "50 ppm",
+                    "75 ppm"
+                ],
+                "correct": 0
+            },
+            {
+                "question": "Dans un système de management de la santé-sécurité (SMS), que représente l'acronyme PDCA?",
+                "options": [
+                    "Plan-Do-Check-Act",
+                    "Prevent-Detect-correct-Assess",
+                    "Prepare-Direct-Control-Audit",
+                    "Plan-Develop-Coordinate-Apply"
+                ],
+                "correct": 0
+            },
+            {
+                "question": "Selon la réglementation canadienne sur les machines, à quelle distance minimale les dispositifs de sécurité doivent-ils être placés?",
+                "options": [
+                    "Selon la formule: D = K × (Ts + Tc + Tr)",
+                    "Toujours à 1 mètre minimum",
+                    "À la discrétion de l'employeur",
+                    "Selon les recommandations du fabricant uniquement"
+                ],
+                "correct": 0
+            },
+            {
+                "question": "Pour les travaux en hauteur, quelle est la charge maximale recommandée pour un système d'arrêt de chute individuel?",
+                "options": [
+                    "100 kg",
+                    "140 kg",
+                    "180 kg",
+                    "200 kg"
+                ],
+                "correct": 1
+            },
+            {
+                "question": "Dans le contexte de l'hygiène industrielle, que mesure un luxmètre?",
+                "options": [
+                    "La température",
+                    "L'humidité",
+                    "L'éclairage",
+                    "Le bruit"
+                ],
+                "correct": 2
+            },
+            {
+                "question": "Selon les normes canadiennes, quelle est la pression minimale requise pour une douche oculaire d'urgence?",
+                "options": [
+                    "0.2 bar (30 psi)",
+                    "0.4 bar (60 psi)",
+                    "0.7 bar (100 psi)",
+                    "1.0 bar (145 psi)"
+                ],
+                "correct": 0
+            },
+            {
+                "question": "Dans une analyse d'accident selon la méthode de l'arbre des causes, on recherche principalement:",
+                "options": [
+                    "Le responsable de l'accident",
+                    "Le coût de l'accident",
+                    "Les causes racines",
+                    "Les témoins de l'accident"
+                ],
+                "correct": 2
+            },
+            {
+                "question": "Selon le SIMDUT, une Fiche de Données de Sécurité (FDS) doit contenir combien de sections?",
+                "options": [
+                    "12 sections",
+                    "14 sections",
+                    "16 sections",
+                    "18 sections"
+                ],
+                "correct": 2
+            },
+            {
+                "question": "Pour les équipements de levage, quelle est la fréquence d'inspection détaillée requise selon les normes canadiennes?",
+                "options": [
+                    "Mensuelle",
+                    "Trimestrielle",
+                    "Semestrielle",
+                    "Annuelle"
+                ],
+                "correct": 3
+            },
+            {
+                "question": "Dans le contexte de la protection auditive, que signifie l'indice NRR?",
+                "options": [
+                    "Noise Reduction Rating",
+                    "Normal Range Rating",
+                    "Numeric Risk Rating",
+                    "National Regulatory Rating"
+                ],
+                "correct": 0
+            },
+            {
+                "question": "Selon la réglementation canadienne, quelle est la largeur minimale requise pour un passage d'urgence?",
+                "options": [
+                    "60 cm",
+                    "75 cm",
+                    "90 cm",
+                    "120 cm"
+                ],
+                "correct": 2
+            },
+            {
+                "question": "Dans un programme de maintenance préventive, que signifie l'acronyme MTBF?",
+                "options": [
+                    "Mean Time Before Failure",
+                    "Maximum Time Between Failures",
+                    "Minimum Time Before Fixing",
+                    "Mean Time Between Failures"
+                ],
+                "correct": 3
+            },
+            {
+                "question": "Selon les normes canadiennes, à quelle température l'équipement de protection individuelle doit-il être testé pour résister au froid?",
+                "options": [
+                    "-20°C",
+                    "-30°C",
+                    "-40°C",
+                    "-50°C"
+                ],
+                "correct": 2
+            },
+            {
+                "question": "Dans le contexte de la sécurité incendie, que représente le triangle du feu?",
+                "options": [
+                    "Détection, Alarme, Évacuation",
+                    "Combustible, Comburant, Énergie d'activation",
+                    "Prévention, Protection, Intervention",
+                    "Personnel, Équipement, Procédures"
+                ],
+                "correct": 1
+            },
+            {
+                "question": "Pour les travaux de soudage, selon les normes canadiennes, quel niveau de filtration minimum est requis pour un masque de soudage?",
+                "options": [
+                    "Teinte 8",
+                    "Teinte 10",
+                    "Teinte 12",
+                    "Teinte 14"
+                ],
+                "correct": 1
+            },
+            {
+                "question": "Dans une analyse de poste de travail ergonomique, que mesure l'indice RULA?",
+                "options": [
+                    "Le niveau de bruit",
+                    "La posture et les mouvements répétitifs",
+                    "La température ambiante",
+                    "L'éclairage du poste"
+                ],
+                "correct": 1
+            },
+            {
+                "question": "Selon la réglementation canadienne, combien de sorties de secours minimum sont requises pour un bâtiment de plus de 150 occupants?",
+                "options": [
+                    "1 sortie",
+                    "2 sorties",
+                    "3 sorties",
+                    "4 sorties"
+                ],
+                "correct": 1
+            },
+            {
+                "question": "Dans le contexte des matières dangereuses, que signifie la classe 6.1 selon le système de classification des marchandises dangereuses?",
+                "options": [
+                    "Matières radioactives",
+                    "Matières toxiques",
+                    "Matières corrosives",
+                    "Matières inflammables"
+                ],
+                "correct": 1
+            },
+            {
+                "question": "Pour un audit interne de sécurité selon les normes canadiennes, quelle est la fréquence minimale recommandée?",
+                "options": [
+                    "Trimestrielle",
+                    "Semestrielle",
+                    "Annuelle",
+                    "Aux deux ans"
+                ],
+                "correct": 2
+            },
+            {
+                "question": "Dans le cadre d'un plan d'urgence, que signifie l'acronyme POI?",
+                "options": [
+                    "Plan d'Opération Interne",
+                    "Procédure d'Opération d'Intervention",
+                    "Plan d'Opération d'Intervention",
+                    "Protocole d'Opération d'Urgence"
+                ],
+                "correct": 2
+            },
+            {
+                "question": "Selon la norme CSA Z462, quelle est la distance d'approche limitée pour un équipement de 15 kV?",
+                "options": [
+                    "3,0 m",
+                    "3,5 m",
+                    "4,0 m",
+                    "4,5 m"
+                ],
+                "correct": 0
+            },
+            {
+                "question": "Dans le cadre du transport des marchandises dangereuses (TMD) au Canada, que signifie la plaque 1.1?",
+                "options": [
+                    "Explosifs avec risque d'explosion en masse",
+                    "Gaz inflammables",
+                    "Liquides inflammables",
+                    "Matières radioactives"
+                ],
+                "correct": 0
+            },
+            {
+                "question": "Selon les normes canadiennes, quelle est la résistance minimale requise pour un point d'ancrage temporaire?",
+                "options": [
+                    "18 kN",
+                    "22 kN",
+                    "25 kN",
+                    "30 kN"
+                ],
+                "correct": 1
+            },
+            {
+                "question": "Dans un programme de protection auditive, à partir de quel niveau d'exposition le port de protecteurs auditifs devient-il obligatoire?",
+                "options": [
+                    "80 dBA",
+                    "85 dBA",
+                    "90 dBA",
+                    "95 dBA"
+                ],
+                "correct": 1
+            },
+            {
+                "question": "Selon la réglementation canadienne, quelle est la concentration limite d'exposition au formaldéhyde sur 8 heures?",
+                "options": [
+                    "0,3 ppm",
+                    "0,75 ppm",
+                    "1,0 ppm",
+                    "1,5 ppm"
+                ],
+                "correct": 1
+            },
+            {
+                "question": "Dans le contexte des équipements sous pression, que signifie l'acronyme CRN?",
+                "options": [
+                    "Canadian Registration Number",
+                    "Certification Registration Number",
+                    "Code Registration Number",
+                    "Compliance Registration Number"
+                ],
+                "correct": 0
+            },
+            {
+                "question": "Selon les normes de sécurité incendie canadiennes, quelle est la distance maximale de parcours vers une sortie de secours?",
+                "options": [
+                    "30 mètres",
+                    "40 mètres",
+                    "45 mètres",
+                    "50 mètres"
+                ],
+                "correct": 2
+            },
+            {
+                "question": "Pour les travaux de démolition, selon la réglementation canadienne, qui doit superviser les opérations?",
+                "options": [
+                    "Un contremaître expérimenté",
+                    "Un ingénieur en structure",
+                    "Une personne compétente qualifiée",
+                    "Le propriétaire du bâtiment"
+                ],
+                "correct": 2
+            },
+            {
+                "question": "Dans le SIMDUT, quelle classe représente les matières qui causent des lésions oculaires graves?",
+                "options": [
+                    "Classe 1",
+                    "Classe 2A",
+                    "Classe 2B",
+                    "Classe 3"
+                ],
+                "correct": 1
+            },
+            {
+                "question": "Selon les normes canadiennes, quelle est la fréquence d'inspection visuelle requise pour les élingues textiles?",
+                "options": [
+                    "Avant chaque utilisation",
+                    "Quotidiennement",
+                    "Hebdomadairement",
+                    "Mensuellement"
+                ],
+                "correct": 0
+            },
+            {
+                "question": "Dans un plan de prévention, que signifie l'acronyme JSA?",
+                "options": [
+                    "Job Safety Analysis",
+                    "Joint Safety Agreement",
+                    "Just Safety Assessment",
+                    "Job Security Analysis"
+                ],
+                "correct": 0
+            },
+            {
+                "question": "Selon la réglementation canadienne sur l'amiante, quelle est la limite d'exposition sur 8 heures pour l'amiante chrysotile?",
+                "options": [
+                    "0,1 fibre/cm³",
+                    "0,2 fibre/cm³",
+                    "0,5 fibre/cm³",
+                    "1,0 fibre/cm³"
+                ],
+                "correct": 0
+            },
+            {
+                "question": "Pour les équipements de manutention, quelle norme CSA s'applique aux ponts roulants?",
+                "options": [
+                    "CSA B167",
+                    "CSA B354",
+                    "CSA B335",
+                    "CSA B51"
+                ],
+                "correct": 2
+            },
+            {
+                "question": "Dans le contexte de la radioprotection, que signifie l'acronyme ALARA?",
+                "options": [
+                    "As Low As Reasonably Achievable",
+                    "Always Low And Rarely Acceptable",
+                    "All Levels Are Readily Available",
+                    "Alternative Low And Reduced Access"
+                ],
+                "correct": 0
+            },
+            {
+                "question": "Selon les normes canadiennes, quelle est la température maximale permise pour l'air comprimé respirable?",
+                "options": [
+                    "35°C",
+                    "40°C",
+                    "45°C",
+                    "50°C"
+                ],
+                "correct": 1
+            },
+            {
+                "question": "Dans un système de permis de travail, quelle est la durée maximale recommandée pour un permis de travail à chaud?",
+                "options": [
+                    "8 heures",
+                    "12 heures",
+                    "24 heures",
+                    "48 heures"
+                ],
+                "correct": 0
+            },
+            {
+                "question": "Selon la réglementation canadienne, quel équipement est obligatoire lors de travaux sur toiture avec pente supérieure à 1:3?",
+                "options": [
+                    "Échafaudage seulement",
+                    "Système d'arrêt de chute",
+                    "Filet de sécurité seulement",
+                    "Équipement au choix de l'employeur"
+                ],
+                "correct": 1
+            },
+            {
+                "question": "Pour les chariots élévateurs, selon les normes CSA, quelle est la fréquence d'inspection quotidienne requise?",
+                "options": [
+                    "Avant chaque quart de travail",
+                    "Au milieu du quart",
+                    "À la fin du quart",
+                    "Une fois par jour seulement"
+                ],
+                "correct": 0
+            },
+            {
+                "question": "Dans le contexte de l'ergonomie, que mesure l'indice de soulèvement NIOSH?",
+                "options": [
+                    "Le poids maximum recommandé pour un soulèvement",
+                    "La fréquence de soulèvement",
+                    "L'angle de torsion du tronc",
+                    "Toutes les réponses précédentes"
+                ],
+                "correct": 3
+            },
+            {
+                "question": "Selon les normes canadiennes de premiers secours, combien de secouristes sont requis pour 100 à 200 employés?",
+                "options": [
+                    "2 secouristes",
+                    "3 secouristes",
+                    "4 secouristes",
+                    "5 secouristes"
+                ],
+                "correct": 1
+            },
+            {
+                "question": "Pour les travaux de sablage, quelle norme CSA s'applique à la protection respiratoire?",
+                "options": [
+                    "CSA Z94.4",
+                    "CSA Z94.3",
+                    "CSA Z94.1",
+                    "CSA Z94.2"
+                ],
+                "correct": 0
+            },
+            {
+                "question": "Dans le cadre du cadenassage, combien de tentatives de redémarrage sont permises pour vérifier l'isolation?",
+                "options": [
+                    "1 tentative",
+                    "2 tentatives",
+                    "3 tentatives",
+                    "Aucune limite"
+                ],
+                "correct": 0
+            },
+            {
+                "question": "Selon la réglementation canadienne, quelle est la limite d'exposition au plomb dans l'air sur 8 heures?",
+                "options": [
+                    "0,05 mg/m³",
+                    "0,10 mg/m³",
+                    "0,15 mg/m³",
+                    "0,20 mg/m³"
+                ],
+                "correct": 0
+            },
+            {
+                "question": "Pour les échafaudages, selon les normes CSA, quelle est la charge d'essai minimale pour les planches?",
+                "options": [
+                    "2,5 kPa",
+                    "3,0 kPa",
+                    "3,5 kPa",
+                    "4,0 kPa"
+                ],
+                "correct": 2
+            },
+            {
+                "question": "Dans un programme de surveillance médicale, que signifie l'acronyme PFR?",
+                "options": [
+                    "Pulmonary Function Report",
+                    "Personal Function Record",
+                    "Physical Fitness Requirement",
+                    "Professional Function Review"
+                ],
+                "correct": 0
+            },
+            {
+                "question": "Selon les normes canadiennes, quelle est la concentration maximale d'hydrogène sulfuré (H2S) pour un travail de courte durée (15 minutes)?",
+                "options": [
+                    "15 ppm",
+                    "20 ppm",
+                    "25 ppm",
+                    "30 ppm"
+                ],
+                "correct": 0
+            },
+            {
+                "question": "Pour les équipements de protection contre l'arc électrique, que signifie la valeur ATPV?",
+                "options": [
+                    "Arc Thermal Performance Value",
+                    "Absolute Thermal Protection Value",
+                    "Available Thermal Protection Value",
+                    "Average Thermal Performance Value"
+                ],
+                "correct": 0
+            },
+            {
+                "question": "Dans le contexte des matières dangereuses, quelle classe TMD représente les matières infectieuses?",
+                "options": [
+                    "Classe 5.2",
+                    "Classe 6.1",
+                    "Classe 6.2",
+                    "Classe 7"
+                ],
+                "correct": 2
+            },
+            {
+                "question": "Selon la réglementation canadienne, à quelle fréquence doit-on calibrer un détecteur de gaz fixe?",
+                "options": [
+                    "Mensuellement",
+                    "Trimestriellement",
+                    "Semestriellement",
+                    "Annuellement"
+                ],
+                "correct": 2
+            },
+            {
+                "question": "Pour les travaux en tranchée, à partir de quelle profondeur un étaiement est-il obligatoire selon les normes canadiennes?",
+                "options": [
+                    "1,2 mètre",
+                    "1,5 mètre",
+                    "1,8 mètre",
+                    "2,0 mètres"
+                ],
+                "correct": 0
+            },
+            {
+                "question": "Dans un système de gestion de la sécurité, que représente l'indicateur LTIFR?",
+                "options": [
+                    "Lost Time Injury Frequency Rate",
+                    "Long Term Injury Follow-up Rate",
+                    "Limited Time Incident Frequency Rate",
+                    "Last Time Injury Frequency Record"
+                ],
+                "correct": 0
+            },
+            {
+                "question": "Selon les normes CSA pour les équipements de levage, quelle est la fréquence d'inspection des câbles métalliques?",
+                "options": [
+                    "Quotidienne",
+                    "Hebdomadaire",
+                    "Mensuelle",
+                    "Variable selon l'usage"
+                ],
+                "correct": 3
+            },
+            {
+                "question": "Pour la protection des yeux, quelle norme CSA s'applique aux lunettes de sécurité?",
+                "options": [
+                    "CSA Z94.1",
+                    "CSA Z94.2",
+                    "CSA Z94.3",
+                    "CSA Z94.4"
+                ],
+                "correct": 2
+            },
+            {
+                "question": "Dans le contexte de l'hygiène industrielle, que mesure un anémomètre?",
+                "options": [
+                    "La température",
+                    "L'humidité",
+                    "La vitesse de l'air",
+                    "La pression"
+                ],
+                "correct": 2
+            },
+            {
+                "question": "Selon la réglementation canadienne sur les substances appauvrissant l'ozone, quel est le délai pour rapporter une fuite de réfrigérant?",
+                "options": [
+                    "24 heures",
+                    "48 heures",
+                    "72 heures",
+                    "7 jours"
+                ],
+                "correct": 3
+            },
+            {
+                "question": "Pour les masques de protection respiratoire, que signifie le facteur de protection assigné (APF) de 10?",
+                "options": [
+                    "Protection contre 10% des contaminants",
+                    "Réduction de la concentration par un facteur de 10",
+                    "Efficacité de 10%",
+                    "Durée de protection de 10 heures"
+                ],
+                "correct": 1
+            },
+            {
+                "question": "Dans un programme de sécurité laser, quelle classe de laser nécessite des lunettes de protection obligatoires?",
+                "options": [
+                    "Classe 1",
+                    "Classe 2",
+                    "Classe 3A",
+                    "Classe 3B et 4"
+                ],
+                "correct": 3
+            },
+            {
+                "question": "Selon les normes canadiennes, quelle est la limite d'exposition au benzène sur 8 heures?",
+                "options": [
+                    "0,5 ppm",
+                    "1,0 ppm",
+                    "1,5 ppm",
+                    "2,0 ppm"
+                ],
+                "correct": 1
+            },
+            {
+                "question": "Pour les équipements de sauvetage en espace clos, quel est le temps maximum recommandé pour une évacuation d'urgence?",
+                "options": [
+                    "3 minutes",
+                    "5 minutes",
+                    "10 minutes",
+                    "15 minutes"
+                ],
+                "correct": 1
+            },
+            {
+                "question": "Dans le contexte de la manutention manuelle, quel est le poids maximal recommandé pour un soulèvement occasionnel par une personne?",
+                "options": [
+                    "20 kg",
+                    "23 kg",
+                    "25 kg",
+                    "30 kg"
+                ],
+                "correct": 1
+            },
+            {
+                "question": "Selon la réglementation canadienne sur les ascenseurs, quelle norme CSA s'applique?",
+                "options": [
+                    "CSA B44",
+                    "CSA B51",
+                    "CSA B52",
+                    "CSA B354"
+                ],
+                "correct": 0
+            },
+            {
+                "question": "Pour les travaux de peinture industrielle, quelle est la limite d'exposition aux solvants organiques totaux?",
+                "options": [
+                    "100 mg/m³",
+                    "150 mg/m³",
+                    "200 mg/m³",
+                    "Variable selon le solvant"
+                ],
+                "correct": 3
+            },
+            {
+                "question": "Dans un système de ventilation industrielle, que représente le débit de capture?",
+                "options": [
+                    "Le débit d'air nécessaire pour diluer un contaminant",
+                    "Le débit d'air nécessaire pour capturer un contaminant à sa source",
+                    "Le débit total du système",
+                    "Le débit d'air de compensation"
+                ],
+                "correct": 1
+            },
+            {
+                "question": "Selon les normes canadiennes, quelle est la distance minimale de sécurité pour les travaux près d'une ligne de 735 kV?",
+                "options": [
+                    "5 mètres",
+                    "8 mètres",
+                    "10 mètres",
+                    "15 mètres"
+                ],
+                "correct": 3
+            },
+            {
+                "question": "Pour les équipements de protection individuelle contre les chutes, quelle est la force maximale transmise au corps lors d'un arrêt de chute?",
+                "options": [
+                    "6 kN",
+                    "8 kN",
+                    "10 kN",
+                    "12 kN"
+                ],
+                "correct": 1
+            },
+            {
+                "question": "Dans le contexte de la sécurité chimique, que signifie l'acronyme LEL?",
+                "options": [
+                    "Lower Explosion Limit",
+                    "Limited Exposure Level",
+                    "Legal Emergency Limit",
+                    "Low Environmental Level"
+                ],
+                "correct": 0
+            },
+            {
+                "question": "Selon la réglementation canadienne, quelle est la concentration maximale de poussières de silice cristalline respirable?",
+                "options": [
+                    "0,025 mg/m³",
+                    "0,05 mg/m³",
+                    "0,1 mg/m³",
+                    "0,2 mg/m³"
+                ],
+                "correct": 1
+            },
+            {
+                "question": "Pour les systèmes d'extinction automatique, quelle norme NFPA s'applique aux systèmes à mousse?",
+                "options": [
+                    "NFPA 11",
+                    "NFPA 13",
+                    "NFPA 15",
+                    "NFPA 16"
+                ],
+                "correct": 0
+            },
+            {
+                "question": "Dans un programme de prévention des troubles musculo-squelettiques, que signifie l'acronyme CTD?",
+                "options": [
+                    "Cumulative Trauma Disorder",
+                    "Chronic Task Difficulty",
+                    "Continuous Training Development",
+                    "Critical Task Definition"
+                ],
+                "correct": 0
+            },
+            {
+                "question": "Selon les normes canadiennes pour les chaudières, quelle est la fréquence d'inspection interne requise?",
+                "options": [
+                    "Annuelle",
+                    "Aux deux ans",
+                    "Aux trois ans",
+                    "Variable selon la pression"
+                ],
+                "correct": 3
+            },
+            {
+                "question": "Selon la Loi sur la santé et la sécurité du travail du Québec (LSST), quel organisme est responsable de l'application de la loi?",
+                "options": [
+                    "CSST",
+                    "CNESST",
+                    "ASP",
+                    "IRSST"
+                ],
+                "correct": 1
+            },
+            {
+                "question": "Pour les travaux de démolition d'amiante, quelle méthode d'abattage est privilégiée selon les normes canadiennes?",
+                "options": [
+                    "Abattage à sec",
+                    "Abattage humide",
+                    "Abattage mécanique",
+                    "Abattage thermique"
+                ],
+                "correct": 1
+            },
+            {
+                "question": "Dans le contexte des accidents de travail, que signifie l'acronyme EMR (Experience Modification Rate)?",
+                "options": [
+                    "Emergency Medical Response",
+                    "Employee Medical Record",
+                    "Experience Modification Rate (facteur de modulation d'expérience)",
+                    "Environmental Management Rating"
+                ],
+                "correct": 2
+            },
+            {
+                "question": "Selon les normes CSA pour les grues mobiles, quelle est la charge d'épreuve appliquée lors des tests?",
+                "options": [
+                    "100% de la charge nominale",
+                    "110% de la charge nominale",
+                    "125% de la charge nominale",
+                    "150% de la charge nominale"
+                ],
+                "correct": 2
+            },
+            {
+                "question": "Pour la protection contre les vibrations, quelle est la valeur d'exposition quotidienne limite pour les vibrations corps entier?",
+                "options": [
+                    "0,5 m/s²",
+                    "1,15 m/s²",
+                    "2,5 m/s²",
+                    "5,0 m/s²"
+                ],
+                "correct": 1
+            },
+            {
+                "question": "Dans un programme de surveillance biologique, que mesure l'indicateur BEI (Biological Exposure Index)?",
+                "options": [
+                    "La concentration de polluants dans l'air",
+                    "La dose interne d'exposition d'un travailleur",
+                    "Le temps d'exposition aux contaminants",
+                    "L'efficacité des équipements de protection"
+                ],
+                "correct": 1
+            },
+            {
+                "question": "Selon la réglementation canadienne sur les ponts roulants, quelle est la fréquence d'inspection annuelle certifiée requise?",
+                "options": [
+                    "Tous les 6 mois",
+                    "Tous les 12 mois",
+                    "Tous les 18 mois",
+                    "Tous les 24 mois"
+                ],
+                "correct": 1
+            },
+            {
+                "question": "Pour les systèmes de protection passive contre l'incendie, que signifie l'indice de résistance au feu 'F120'?",
+                "options": [
+                    "120 minutes de résistance",
+                    "120°C de résistance thermique",
+                    "120 kg/m² de charge",
+                    "120% d'efficacité"
+                ],
+                "correct": 0
+            },
+            {
+                "question": "Dans le contexte de l'analyse quantitative des risques, que représente la méthode HAZOP?",
+                "options": [
+                    "Hazard and Operability Study",
+                    "Hazardous Operations Protocol",
+                    "Health and Occupational Prevention",
+                    "Hazard Analysis and Prevention"
+                ],
+                "correct": 0
+            },
+            {
+                "question": "Selon les normes canadiennes, quelle est la concentration maximale de vapeurs d'essence dans l'air ambiant?",
+                "options": [
+                    "100 ppm",
+                    "300 ppm",
+                    "500 ppm",
+                    "1000 ppm"
+                ],
+                "correct": 1
+            },
+            {
+                "question": "Pour les équipements de protection respiratoire autonome (ARA), quelle est la durée minimale d'autonomie requise pour les interventions d'urgence?",
+                "options": [
+                    "15 minutes",
+                    "30 minutes",
+                    "45 minutes",
+                    "60 minutes"
+                ],
+                "correct": 1
+            },
+            {
+                "question": "Dans un système de management intégré QSE, que signifie l'acronyme QHSE?",
+                "options": [
+                    "Quality Health Safety Environment",
+                    "Quick Health Security Emergency",
+                    "Quality Hygiene Safety Efficiency",
+                    "Quantified Health Safety Evaluation"
+                ],
+                "correct": 0
+            },
+            {
+                "question": "Selon la réglementation canadienne, quelle est la limite d'exposition professionnelle pour les fibres de verre?",
+                "options": [
+                    "1 fibre/cm³",
+                    "3 fibres/cm³",
+                    "5 fibres/cm³",
+                    "10 fibres/cm³"
+                ],
+                "correct": 0
+            },
+            {
+                "question": "Pour les travaux sur les toits, quelle est la pente maximale autorisée sans système d'arrêt de chute?",
+                "options": [
+                    "1:6 (16,7%)",
+                    "1:4 (25%)",
+                    "1:3 (33,3%)",
+                    "1:2 (50%)"
+                ],
+                "correct": 0
+            },
+            {
+                "question": "Dans le contexte de la gestion des déchets dangereux, que signifie l'acronyme PTMD?",
+                "options": [
+                    "Politique de Transport des Matières Dangereuses",
+                    "Programme de Traitement des Matières Dangereuses",
+                    "Procédure de Transport des Matières Dangereuses",
+                    "Plan de Transport des Matières Dangereuses"
+                ],
+                "correct": 2
+            },
+            {
+                "question": "Selon les normes CSA, quelle est la résistance à la traction minimale pour une corde de sécurité en nylon de 16 mm?",
+                "options": [
+                    "22 kN",
+                    "35 kN",
+                    "40 kN",
+                    "50 kN"
+                ],
+                "correct": 2
+            },
+            {
+                "question": "Pour les systèmes de ventilation par aspiration localisée, quelle vitesse de capture minimale est requise pour les vapeurs lourdes?",
+                "options": [
+                    "0,25-0,5 m/s",
+                    "0,5-1,0 m/s",
+                    "1,0-2,5 m/s",
+                    "2,5-10 m/s"
+                ],
+                "correct": 0
+            },
+            {
+                "question": "Dans une analyse d'arbre de défaillances (AAD), que représentent les portes logiques 'ET'?",
+                "options": [
+                    "Tous les événements doivent se produire",
+                    "Au moins un événement doit se produire",
+                    "Aucun événement ne doit se produire",
+                    "Les événements sont indépendants"
+                ],
+                "correct": 0
+            },
+            {
+                "question": "Selon la réglementation canadienne, quelle est la fréquence d'étalonnage requise pour un dosimètre de bruit personnel?",
+                "options": [
+                    "Avant et après chaque utilisation",
+                    "Quotidiennement",
+                    "Hebdomadairement",
+                    "Mensuellement"
+                ],
+                "correct": 0
+            },
+            {
+                "question": "Pour les équipements de levage, que signifie le marquage CE sur un équipement?",
+                "options": [
+                    "Conformité Européenne",
+                    "Certification Européenne",
+                    "Contrôle d'Efficacité",
+                    "Certification d'Excellence"
+                ],
+                "correct": 0
+            },
+            {
+                "question": "Dans le contexte de la protection contre les explosions, que représente la classification Zone 0?",
+                "options": [
+                    "Atmosphère explosive présente en permanence",
+                    "Atmosphère explosive occasionnelle",
+                    "Atmosphère explosive rare",
+                    "Aucune atmosphère explosive"
+                ],
+                "correct": 0
+            },
+            {
+                "question": "Selon les normes canadiennes pour les systèmes d'alarme incendie, quelle est la distance maximale entre les détecteurs de fumée?",
+                "options": [
+                    "7,5 mètres",
+                    "9 mètres",
+                    "10,5 mètres",
+                    "12 mètres"
+                ],
+                "correct": 1
+            },
+            {
+                "question": "Pour la protection des mains, quelle norme CSA s'applique aux gants de protection chimique?",
+                "options": [
+                    "CSA Z195",
+                    "CSA Z259.1",
+                    "CSA Z259.11",
+                    "CSA Z195-09"
+                ],
+                "correct": 0
+            },
+            {
+                "question": "Dans un programme de gestion des changements, que signifie l'acronyme MOC?",
+                "options": [
+                    "Management of Change",
+                    "Modification of Control",
+                    "Management of Control",
+                    "Method of Change"
+                ],
+                "correct": 0
+            },
+            {
+                "question": "Selon la réglementation canadienne, quelle est la limite d'exposition au toluène sur une période de 15 minutes (STEL)?",
+                "options": [
+                    "75 ppm",
+                    "100 ppm",
+                    "150 ppm",
+                    "200 ppm"
+                ],
+                "correct": 2
+            },
+            {
+                "question": "Pour les travaux de confinement d'amiante, quelle pression négative minimale doit être maintenue?",
+                "options": [
+                    "2,5 Pa",
+                    "5,0 Pa",
+                    "7,5 Pa",
+                    "10,0 Pa"
+                ],
+                "correct": 0
+            },
+            {
+                "question": "Dans le contexte de la sécurité des procédés, que représente l'analyse LOPA?",
+                "options": [
+                    "Layer of Protection Analysis",
+                    "Level of Process Analysis",
+                    "Loss of Pressure Analysis",
+                    "Logic Process Analysis"
+                ],
+                "correct": 0
+            },
+            {
+                "question": "Selon les normes canadiennes, quelle est la charge d'épreuve pour un harnais de sécurité complet?",
+                "options": [
+                    "15 kN",
+                    "20 kN",
+                    "25 kN",
+                    "30 kN"
+                ],
+                "correct": 1
+            },
+            {
+                "question": "Pour les détecteurs de gaz combustibles, à quel pourcentage de la LIE l'alarme doit-elle se déclencher?",
+                "options": [
+                    "10% LIE",
+                    "20% LIE",
+                    "25% LIE",
+                    "50% LIE"
+                ],
+                "correct": 2
+            },
+            {
+                "question": "Dans un système de consignation électrique, quelle est la séquence correcte des opérations?",
+                "options": [
+                    "Couper, Cadenasser, Vérifier, Étiqueter",
+                    "Couper, Vérifier, Cadenasser, Étiqueter",
+                    "Étiqueter, Couper, Cadenasser, Vérifier",
+                    "Couper, Étiqueter, Cadenasser, Vérifier"
+                ],
+                "correct": 1
+            },
+            {
+                "question": "Selon la réglementation canadienne sur les grues, quelle est la fréquence d'inspection des câbles de levage?",
+                "options": [
+                    "Quotidienne",
+                    "Hebdomadaire", 
+                    "Mensuelle",
+                    "Selon l'intensité d'usage"
+                ],
+                "correct": 3
+            },
+            {
+                "question": "Pour les systèmes de suppression par gaz inerte, quel gaz est le plus couramment utilisé?",
+                "options": [
+                    "Azote",
+                    "Argon",
+                    "CO₂",
+                    "Inergen"
+                ],
+                "correct": 3
+            },
+            {
+                "question": "Dans le contexte de l'analyse des risques psychosociaux, que mesure l'échelle de Karasek?",
+                "options": [
+                    "La charge de travail et l'autonomie",
+                    "Le stress et l'anxiété",
+                    "La satisfaction au travail",
+                    "Les relations interpersonnelles"
+                ],
+                "correct": 0
+            },
+            {
+                "question": "Selon les normes canadiennes, quelle est la concentration limite pour les poussières de bois dur (chêne, hêtre)?",
+                "options": [
+                    "0,5 mg/m³",
+                    "1,0 mg/m³",
+                    "3,0 mg/m³",
+                    "5,0 mg/m³"
+                ],
+                "correct": 1
+            },
+            {
+                "question": "Pour les équipements de protection individuelle contre les chutes, quelle est la longueur maximale autorisée pour un cordon d'assujettissement?",
+                "options": [
+                    "1,5 mètre",
+                    "2,0 mètres",
+                    "2,5 mètres",
+                    "3,0 mètres"
+                ],
+                "correct": 1
+            },
+            {
+                "question": "Dans un programme de sécurité comportementale, que signifie l'indicateur 'Near Miss'?",
+                "options": [
+                    "Accident avec blessure légère",
+                    "Événement qui aurait pu causer un accident",
+                    "Accident évité de justesse",
+                    "Incident sans conséquence"
+                ],
+                "correct": 1
+            },
+            {
+                "question": "Selon la réglementation canadienne, quelle est la température maximale autorisée pour un local de travail sédentaire?",
+                "options": [
+                    "26°C",
+                    "28°C",
+                    "30°C",
+                    "32°C"
+                ],
+                "correct": 1
+            },
+            {
+                "question": "Pour les systèmes de protection cathodique, quelle tension minimale de protection est requise?",
+                "options": [
+                    "-0,85 V",
+                    "-1,0 V",
+                    "-1,2 V",
+                    "-1,5 V"
+                ],
+                "correct": 0
+            },
+            {
+                "question": "Dans le contexte de la radioprotection, que représente l'unité Sv (Sievert)?",
+                "options": [
+                    "Activité radioactive",
+                    "Dose absorbée",
+                    "Dose équivalente",
+                    "Exposition"
+                ],
+                "correct": 2
+            },
+            {
+                "question": "Selon les normes CSA pour les échelles portatives, quel angle d'appui est recommandé?",
+                "options": [
+                    "60° (4:1)",
+                    "65° (3:1)",
+                    "75° (4:1)",
+                    "80° (6:1)"
+                ],
+                "correct": 2
+            },
+            {
+                "question": "Pour les travaux en milieu hyperbare, à partir de quelle pression absolue une décompression est-elle obligatoire?",
+                "options": [
+                    "1,5 bar",
+                    "2,0 bar",
+                    "2,5 bar",
+                    "3,0 bar"
+                ],
+                "correct": 1
+            },
+            {
+                "question": "Dans un système de gestion documentaire SST, que représente une 'procédure'?",
+                "options": [
+                    "Un document de politique générale",
+                    "Une instruction de travail détaillée",
+                    "Un document décrivant 'comment faire'",
+                    "Un formulaire d'enregistrement"
+                ],
+                "correct": 2
+            },
+            {
+                "question": "Selon la réglementation canadienne, quelle est la limite d'exposition au styrène sur 8 heures?",
+                "options": [
+                    "20 ppm",
+                    "50 ppm",
+                    "85 ppm",
+                    "100 ppm"
+                ],
+                "correct": 1
+            },
+            {
+                "question": "Pour les systèmes d'éclairage de sécurité, quelle autonomie minimale est requise?",
+                "options": [
+                    "30 minutes",
+                    "60 minutes",
+                    "90 minutes",
+                    "120 minutes"
+                ],
+                "correct": 2
+            },
+            {
+                "question": "Dans le contexte des espaces clos, que signifie l'acronyme ROPS sur un équipement?",
+                "options": [
+                    "Roll-Over Protection System",
+                    "Respiratory Operation Protection System",
+                    "Rescue Operation Procedure Standard",
+                    "Risk Operations Protection Standard"
+                ],
+                "correct": 0
+            },
+            {
+                "question": "Selon les normes canadiennes de premiers secours, quelle est la composition minimale d'une trousse pour 25 à 99 employés?",
+                "options": [
+                    "Trousse de type A",
+                    "Trousse de type B",
+                    "Trousse de type C",
+                    "Trousse personnalisée"
+                ],
+                "correct": 1
+            },
+            {
+                "question": "Pour les équipements de manutention mécanisée, que signifie le symbole triangulaire sur une plaque de charge?",
+                "options": [
+                    "Charge maximale",
+                    "Centre de gravité",
+                    "Point d'équilibre instable",
+                    "Zone de danger"
+                ],
+                "correct": 2
+            },
+            {
+                "question": "Dans un programme de surveillance environnementale, que mesure un échantillonneur à cassette?",
+                "options": [
+                    "Les gaz",
+                    "Les vapeurs",
+                    "Les poussières et fibres",
+                    "Les métaux lourds"
+                ],
+                "correct": 2
+            },
+            {
+                "question": "Selon la réglementation canadienne, quelle est la distance de sécurité minimale pour le stockage d'explosifs de classe 1.1?",
+                "options": [
+                    "Selon la quantité stockée",
+                    "100 mètres minimum",
+                    "200 mètres minimum",
+                    "500 mètres minimum"
+                ],
+                "correct": 0
+            },
+            {
+                "question": "Pour les systèmes de protection individuelle contre les chutes, quelle force maximale peut être transmise au corps lors d'un arrêt avec absorbeur d'énergie?",
+                "options": [
+                    "4 kN",
+                    "6 kN",
+                    "8 kN",
+                    "10 kN"
+                ],
+                "correct": 1
+            }
+]
