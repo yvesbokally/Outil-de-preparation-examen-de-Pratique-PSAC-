@@ -12,12 +12,17 @@ const nextBtn = document.getElementById('nextBtn');
 const finishBtn = document.getElementById('finishBtn'); // Nouveau bouton "Terminer"
 const submitBtn = document.getElementById('submitBtn');
 const resultsContainer = document.getElementById('results');
+const reviewAnswersBtn = document.getElementById('reviewAnswersBtn'); // Nouveau bouton de révision
 const examForm = document.getElementById('examForm');
 const progressBar = document.querySelector('.progress-bar');
 const timerDisplay = document.getElementById('timer');
+const reviewSection = document.getElementById('reviewSection');
 
-// Connecter le nouveau bouton à la fonction de soumission
+// Connecter les boutons à leurs fonctions
+startBtn.addEventListener('click', startExam);
 finishBtn.addEventListener('click', submitExam);
+submitBtn.addEventListener('click', submitExam);
+reviewAnswersBtn.addEventListener('click', reviewAnswers);
 
 // Fonction de mélange des questions (Fisher-Yates shuffle)
 function shuffleArray(array) {
@@ -34,7 +39,8 @@ async function loadQuestions() {
         if (!response.ok) {
             throw new Error('Erreur de chargement du fichier questions.json');
         }
-        questions = await response.json();
+        const data = await response.json();
+        questions = data;
         
         // Mélange des questions une fois qu'elles sont chargées
         shuffleArray(questions);
@@ -46,7 +52,7 @@ async function loadQuestions() {
 
 // Fonction pour démarrer l'examen
 function startExam() {
-    welcomeScreen.style.display = 'none';
+    hideAllSections();
     examForm.style.display = 'block';
     progressBar.style.display = 'block';
     timerDisplay.style.display = 'block';
@@ -68,7 +74,7 @@ function renderQuestion() {
             <div class="options">
                 ${question.options.map((option, index) => `
                     <div class="option">
-                        <input type="radio" id="q${currentQuestionIndex}o${index}" name="q${currentQuestionIndex}" value="${index}" 
+                        <input type="radio" id="q${currentQuestionIndex}o${index}" name="q${currentQuestionIndex}" value="${index}"
                             ${userAnswers[currentQuestionIndex] === index ? 'checked' : ''}>
                         <label for="q${currentQuestionIndex}o${index}">${option}</label>
                     </div>
@@ -106,8 +112,11 @@ function saveCurrentAnswer() {
 // Met à jour les boutons de navigation
 function updateControls() {
     prevBtn.disabled = currentQuestionIndex === 0;
+    // Rendre le bouton "Suivant" visible sauf sur la dernière question
     nextBtn.style.display = currentQuestionIndex === questions.length - 1 ? 'none' : 'inline-block';
-    finishBtn.style.display = currentQuestionIndex === questions.length - 1 ? 'none' : 'inline-block';
+    // Rendre le bouton "Terminer" toujours visible pendant l'examen
+    finishBtn.style.display = 'inline-block';
+    // Rendre le bouton "Soumettre l'Examen" visible uniquement sur la dernière question
     submitBtn.style.display = currentQuestionIndex === questions.length - 1 ? 'inline-block' : 'none';
 }
 
@@ -115,9 +124,7 @@ function updateControls() {
 function submitExam() {
     saveCurrentAnswer();
     calculateScore();
-    examForm.style.display = 'none';
-    progressBar.style.display = 'none';
-    timerDisplay.style.display = 'none';
+    hideAllSections();
     resultsContainer.style.display = 'block';
     clearInterval(timer);
 }
@@ -135,11 +142,11 @@ function calculateScore() {
 
     // Mise à jour du score numérique
     document.getElementById('scoreNumerator').textContent = score;
-    document.getElementById('scoreDenominator').textContent = questions.length; // Assure que le dénominateur est correct
+    document.getElementById('scoreDenominator').textContent = questions.length;
 
     // Mise à jour de la jauge
     const gaugeFill = document.getElementById('gaugeFill');
-    gaugeFill.style.width = `${percentage}%`; // Définir la largeur de la barre de progression
+    gaugeFill.style.width = `${percentage}%`;
 
     // Mise à jour du feedback et de sa couleur
     const feedbackText = getFeedback(percentage);
@@ -185,21 +192,73 @@ function updateProgressBar() {
     document.getElementById('progress').style.width = `${progress}%`;
 }
 
+// Révision des réponses
+function reviewAnswers() {
+    hideAllSections();
+    reviewSection.style.display = 'block';
+    const reviewContent = document.getElementById('reviewContent');
+    reviewContent.innerHTML = ''; // Nettoyer le contenu précédent
+
+    questions.forEach((q, index) => {
+        const userChoice = userAnswers[index];
+        const correctChoice = q.correct;
+
+        const questionElement = document.createElement('div');
+        // Ajout de la classe "unanswered" si la question n'a pas été répondue
+        if (userChoice === undefined) {
+            questionElement.className = 'review-question unanswered';
+        } else {
+            questionElement.className = 'review-question';
+        }
+
+        const questionHTML = `
+            <h4>Question ${index + 1}: ${q.question}</h4>
+            <ul class="review-options">
+                ${q.options.map((option, optionIndex) => {
+                    let className = '';
+                    if (optionIndex === correctChoice) {
+                        className = 'correct';
+                    }
+                    if (optionIndex === userChoice && userChoice !== correctChoice) {
+                        className = 'incorrect';
+                    }
+                    return `<li class="review-option ${className}">${option}</li>`;
+                }).join('')}
+            </ul>
+            <div class="review-explanation">
+                <p><strong>Explication:</strong> ${q.explanation}</p>
+            </div>
+        `;
+        questionElement.innerHTML = questionHTML;
+        reviewContent.appendChild(questionElement);
+    });
+}
+
+// Affiche la section des résultats et masque les autres
+function showResults() {
+    hideAllSections();
+    resultsContainer.style.display = 'block';
+}
+
+// Masque toutes les sections principales
+function hideAllSections() {
+    welcomeScreen.style.display = 'none';
+    examForm.style.display = 'none';
+    progressBar.style.display = 'none';
+    timerDisplay.style.display = 'none';
+    resultsContainer.style.display = 'none';
+    reviewSection.style.display = 'none';
+}
+
 // Redémarre l'examen
 function restartExam() {
     currentQuestionIndex = 0;
     userAnswers = [];
     timeRemaining = 4 * 60 * 60;
-    resultsContainer.style.display = 'none';
+    hideAllSections();
     welcomeScreen.style.display = 'block';
     loadQuestions();
 }
 
-// Révision des réponses
-function reviewAnswers() {
-    alert("La fonctionnalité de révision des réponses n'est pas encore implémentée dans cette version.");
-}
-
 // Initialisation de la page
 window.onload = loadQuestions;
-startBtn.addEventListener('click', startExam);
