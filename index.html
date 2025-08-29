@@ -12,40 +12,60 @@
             <h1>🇨🇦 Outil de préparation à l'Examen de Pratique PSAC®</h1>
             <p>Santé et Sécurité au Travail - Réglementation Canadienne</p>
         </div>
-        
-        <div class="timer" id="timer">Temps: 4:00:00</div>
-        
-        <div class="exam-info">
-            <strong>Instructions:
-            <br><br>
-            </strong> Cet examen contient 150 QCM basées sur la réglementation canadienne en santé et sécurité au travail. 
-            <br><br>
-            <p><strong>Vous avez 4 heures pour compléter l'examen.</strong> Sélectionnez la meilleure réponse pour chaque question.</p>
-            <br>
-            <P><strong>Un score de 70% ou plus indique généralement une bonne préparation pour l'examen officiel.</strong></P>
-            <br>
-            Bonne chance ! 🇨🇦
+
+        <div id="welcomeScreen">
+            <div class="exam-info">
+                <strong>Instructions:
+                <br><br>
+                </strong> Cet examen contient 150 QCM basées sur la réglementation canadienne en santé et sécurité au travail. 
+                <br><br>
+                <p><strong>Vous avez 4 heures pour compléter l'examen.</strong> Sélectionnez la meilleure réponse pour chaque question.</p>
+                <br>
+                <P><strong>Un score de 70% ou plus indique généralement une bonne préparation pour l'examen officiel.</strong></P>
+                <br>
+                Bonne chance ! 🇨🇦
+            </div>
+            <div style="text-align: center; margin-top: 20px;">
+                <button id="startBtn" class="btn btn-success">Commencer l'Examen</button>
+            <p></p><br>
+            </div>
         </div>
         
-        <div class="progress-bar">
+        <div class="timer" id="timer" style="display:none;">Temps: 4:00:00</div>
+        
+        <div class="progress-bar" style="display:none;">
             <div class="progress" id="progress" style="width: 0%"></div>
         </div>
         
-        <form id="examForm"> 
-            <div class="question-container" id="questionContainer">
-                <!-- Questions will be loaded here -->
+        <form id="examForm" style="display:none;"> 
+            <div class="question-container" id="questionContainer"> 
+
             </div>
             
             <div class="controls">
                 <button type="button" class="btn" id="prevBtn" onclick="changeQuestion(-1)" disabled>⬅ Précédent</button>
                 <button type="button" class="btn" id="nextBtn" onclick="changeQuestion(1)">Suivant ➡</button>
+                <button type="button" class="btn btn-finish" id="finishBtn" style="display:none;">🏁 Terminer</button>
                 <button type="button" class="btn btn-success" id="submitBtn" onclick="submitExam()" style="display:none;">📊 Soumettre l'Examen</button>
             </div>
         </form>
         
-        <div class="results" id="results">
+<div class="results" id="results">
             <h2>Résultats de l'Examen</h2>
-            <div class="score" id="score"></div>
+            <div class="score-display">
+                <span id="scoreNumerator">0</span> / <span id="scoreDenominator">150</span>
+            </div>
+            <div class="gauge-container">
+                <div class="gauge-bar">
+                    <div class="gauge-fill" id="gaugeFill"></div>
+                </div>
+                <div class="gauge-labels">
+                    <span>0%</span>
+                    <span>70%</span>
+                    <span>90%</span>
+                    <span>100%</span>
+                </div>
+            </div>
             <div class="feedback" id="feedback"></div>
             <button class="btn" onclick="restartExam()">🔄 Recommencer</button>
             <button class="btn" onclick="reviewAnswers()">📋 Réviser les Réponses</button>
