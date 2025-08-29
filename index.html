@@ -27,8 +27,8 @@
             </div>
             <div style="text-align: center; margin-top: 20px;">
                 <button id="startBtn" class="btn btn-success">Commencer l'Examen</button>
-            <p></p><br>
-            </div>
+            <br><br> 
+        </div>
         </div>
         
         <div class="timer" id="timer" style="display:none;">Temps: 4:00:00</div>
@@ -38,9 +38,8 @@
         </div>
         
         <form id="examForm" style="display:none;"> 
-            <div class="question-container" id="questionContainer"> 
-
-            </div>
+            <div class="question-container" id="questionContainer">
+                </div>
             
             <div class="controls">
                 <button type="button" class="btn" id="prevBtn" onclick="changeQuestion(-1)" disabled>⬅ Précédent</button>
@@ -50,7 +49,7 @@
             </div>
         </form>
         
-<div class="results" id="results">
+        <div class="results" id="results">
             <h2>Résultats de l'Examen</h2>
             <div class="score-display">
                 <span id="scoreNumerator">0</span> / <span id="scoreDenominator">150</span>
@@ -70,7 +69,12 @@
             <button class="btn" onclick="restartExam()">🔄 Recommencer</button>
             <button class="btn" onclick="reviewAnswers()">📋 Réviser les Réponses</button>
         </div>
-    </div>    
+    </div>
+    
     <script src="script.js"></script>
+
+    <footer>
+        <br><p>Designed with Crafted with 💖 and a pinch of AI magic by K@olo & its robots sidekick © 2025</p><br>
+    </footer>
 </body>
 </html>
