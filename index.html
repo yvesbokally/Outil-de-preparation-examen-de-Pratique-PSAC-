@@ -17,7 +17,7 @@
             <div class="exam-info">
                 <strong>Instructions:
                 <br><br>
-                </strong> Cet examen contient 150 QCM basées sur la réglementation canadienne en santé et sécurité au travail. 
+                </strong> Cet examen contient 150 QCM basées sur la réglementation canadienne en santé et sécurité au travail.
                 <br><br>
                 <p><strong>Vous avez 4 heures pour compléter l'examen.</strong> Sélectionnez la meilleure réponse pour chaque question.</p>
                 <br>
@@ -27,7 +27,7 @@
             </div>
             <div style="text-align: center; margin-top: 20px;">
                 <button id="startBtn" class="btn btn-success">Commencer l'Examen</button>
-            <br><br> 
+            <br><br>
         </div>
         </div>
         
@@ -37,7 +37,7 @@
             <div class="progress" id="progress" style="width: 0%"></div>
         </div>
         
-        <form id="examForm" style="display:none;"> 
+        <form id="examForm" style="display:none;">
             <div class="question-container" id="questionContainer">
                 </div>
             
@@ -49,7 +49,7 @@
             </div>
         </form>
         
-        <div class="results" id="results">
+        <div class="results" id="results" style="display:none;">
             <h2>Résultats de l'Examen</h2>
             <div class="score-display">
                 <span id="scoreNumerator">0</span> / <span id="scoreDenominator">150</span>
@@ -67,7 +67,13 @@
             </div>
             <div class="feedback" id="feedback"></div>
             <button class="btn" onclick="restartExam()">🔄 Recommencer</button>
-            <button class="btn" onclick="reviewAnswers()">📋 Réviser les Réponses</button>
+            <button class="btn" id="reviewAnswersBtn">📋 Réviser les Réponses</button>
+        </div>
+
+        <div id="reviewSection" style="display:none;">
+            <h2 style="text-align: center; margin-bottom: 20px;">Révision des Réponses</h2>
+            <div id="reviewContent"></div>
+            <button class="btn" onclick="showResults()" style="display: block; margin: 30px auto;">⬅ Retour aux Résultats</button>
         </div>
     </div>
     
