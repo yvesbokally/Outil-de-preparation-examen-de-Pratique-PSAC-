@@ -312,3 +312,11 @@
     border: 2px solid #3498db;
     color: #0d47a1;
 }
+/* Styles pour le pied de page */
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    color: white;
+    font-size: 0.9em;
+}
