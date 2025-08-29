@@ -4,12 +4,20 @@ let userAnswers = [];
 let timer;
 let timeRemaining = 4 * 60 * 60; // 4 hours in seconds
 
+const welcomeScreen = document.getElementById('welcomeScreen');
+const startBtn = document.getElementById('startBtn');
 const questionContainer = document.getElementById('questionContainer');
 const prevBtn = document.getElementById('prevBtn');
 const nextBtn = document.getElementById('nextBtn');
+const finishBtn = document.getElementById('finishBtn'); // Nouveau bouton "Terminer"
 const submitBtn = document.getElementById('submitBtn');
 const resultsContainer = document.getElementById('results');
 const examForm = document.getElementById('examForm');
+const progressBar = document.querySelector('.progress-bar');
+const timerDisplay = document.getElementById('timer');
+
+// Connecter le nouveau bouton à la fonction de soumission
+finishBtn.addEventListener('click', submitExam);
 
 // Fonction de mélange des questions (Fisher-Yates shuffle)
 function shuffleArray(array) {
@@ -30,14 +38,20 @@ async function loadQuestions() {
         
         // Mélange des questions une fois qu'elles sont chargées
         shuffleArray(questions);
-        
-        // Une fois les questions chargées et mélangées, on affiche la première
-        renderQuestion();
-        startTimer();
     } catch (error) {
         console.error('Erreur:', error);
         alert('Impossible de charger les questions. Veuillez vérifier le fichier questions.json.');
     }
+}
+
+// Fonction pour démarrer l'examen
+function startExam() {
+    welcomeScreen.style.display = 'none';
+    examForm.style.display = 'block';
+    progressBar.style.display = 'block';
+    timerDisplay.style.display = 'block';
+    renderQuestion();
+    startTimer();
 }
 
 // Fonction pour afficher la question actuelle
@@ -93,6 +107,7 @@ function saveCurrentAnswer() {
 function updateControls() {
     prevBtn.disabled = currentQuestionIndex === 0;
     nextBtn.style.display = currentQuestionIndex === questions.length - 1 ? 'none' : 'inline-block';
+    finishBtn.style.display = currentQuestionIndex === questions.length - 1 ? 'none' : 'inline-block';
     submitBtn.style.display = currentQuestionIndex === questions.length - 1 ? 'inline-block' : 'none';
 }
 
@@ -101,7 +116,10 @@ function submitExam() {
     saveCurrentAnswer();
     calculateScore();
     examForm.style.display = 'none';
+    progressBar.style.display = 'none';
+    timerDisplay.style.display = 'none';
     resultsContainer.style.display = 'block';
+    clearInterval(timer);
 }
 
 // Calcule et affiche le score final
@@ -114,8 +132,16 @@ function calculateScore() {
     });
     
     const percentage = (score / questions.length) * 100;
-    document.getElementById('score').textContent = `${score} / ${questions.length} (${percentage.toFixed(0)}%)`;
 
+    // Mise à jour du score numérique
+    document.getElementById('scoreNumerator').textContent = score;
+    document.getElementById('scoreDenominator').textContent = questions.length; // Assure que le dénominateur est correct
+
+    // Mise à jour de la jauge
+    const gaugeFill = document.getElementById('gaugeFill');
+    gaugeFill.style.width = `${percentage}%`; // Définir la largeur de la barre de progression
+
+    // Mise à jour du feedback et de sa couleur
     const feedbackText = getFeedback(percentage);
     const feedbackDiv = document.getElementById('feedback');
     feedbackDiv.textContent = feedbackText;
@@ -123,19 +149,19 @@ function calculateScore() {
 }
 
 function getFeedback(percentage) {
-    if (percentage >= 70) {
-        return "Excellent! Vous êtes bien préparé pour l'examen officiel.";
-    } else if (percentage >= 50) {
-        return "Bonne tentative. Continuez à réviser pour améliorer votre score.";
+    if (percentage >= 90) {
+        return "Félicitations ! Vous avez un excellent score et êtes très bien préparé.";
+    } else if (percentage >= 70) {
+        return "Très bon résultat ! Vous êtes sur la bonne voie pour réussir l'examen.";
     } else {
-        return "Vous avez besoin de plus de révision. Concentrez-vous sur les concepts clés.";
+        return "Continuez à vous entraîner. Revoyez les sujets pour améliorer votre score.";
     }
 }
 
 function getFeedbackClass(percentage) {
-    if (percentage >= 70) return 'excellent';
-    if (percentage >= 50) return 'good';
-    return 'needs-improvement';
+    if (percentage >= 90) return 'blue';
+    if (percentage >= 70) return 'green';
+    return 'red';
 }
 
 // Démarrage du minuteur
@@ -165,7 +191,7 @@ function restartExam() {
     userAnswers = [];
     timeRemaining = 4 * 60 * 60;
     resultsContainer.style.display = 'none';
-    examForm.style.display = 'block';
+    welcomeScreen.style.display = 'block';
     loadQuestions();
 }
 
@@ -176,3 +202,4 @@ function reviewAnswers() {
 
 // Initialisation de la page
 window.onload = loadQuestions;
+startBtn.addEventListener('click', startExam);
